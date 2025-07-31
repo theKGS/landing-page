@@ -31,6 +31,8 @@ body {
     list-style: none;
 }
 
+/* MAINBOX */
+
 .mainbox {
     display: flex;
     flex: 4;
@@ -42,6 +44,8 @@ body {
 .mainbox > div {
     flex: 1;
 }
+
+/* MAINBOX - TOP REGION */
 
 .mbtop {
     background-color: white;
@@ -75,9 +79,8 @@ body {
     border-radius: 16px;
 }
 
-.mbbtm {
-    background-color: white;;
-}
+
+/* MAINBOX -> QUOTE REGION */
 
 .mbmid {
     display: flex;
@@ -102,4 +105,21 @@ body {
 
 .quotebox > div {
     text-align: end;
+}
+
+/* MAINBOX -> BOTTOM REGION */
+
+.mbbtm {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882f6;
+    width: 75%;
+    height: 50%;
+    border-radius: 16px;
 }
