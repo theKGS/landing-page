@@ -8,6 +8,10 @@ body {
     background-color: gray;
 }
 
+* {
+    font-family: Roboto;
+}
+
 .header {
     flex: 1;
 }
@@ -40,18 +44,42 @@ body {
 }
 
 .mbtop {
-    background-color: burlywood;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
+.mbtopU {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mbtopL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mbtopL > div {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+
+
 .mbbtm {
-    background-color: bisque;;
+    background-color: white;;
 }
 
 .mbmid {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: #e5e7eb;
 }
 
 .quotebox {
