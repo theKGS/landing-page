@@ -24,7 +24,9 @@ body {
     color: white;
 }
 
-
+.hlist > li:nth-child(1) {
+    margin-right: 350px;
+}
 
 /* TOPREGION */
 
@@ -138,9 +140,8 @@ body {
 }
 
 .quotebox {
-    width: 800px;
-    height: 100px;
-    flex: none;
+    width: 50%;
+    height: 50%;
     font-weight: lighter;
     font-style: italic;
     font-size: 36px;
