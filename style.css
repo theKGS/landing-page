@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    flex: 1;
+    flex: 0.2;
 }
 
 .hlist {
@@ -21,29 +21,42 @@ body {
     gap: 50px;
     justify-content: flex-end;
     list-style: none;
+    color: white;
 }
 
 
 
-/* MINIBOX */
+/* TOPREGION */
+
+.topregion {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
 
 .minibox {
     flex: 1;
     display: flex;
     color: white;
     flex-direction: row;
+    width: 75%;
+    height: 50%;
 }
 
 .minibox > div {
     flex: 1;
 }
 
-.minibox > div:nth-child(1) {
-
+.minibox > div:nth-child(1) > div {
+    font-weight: 900;
 }
 
 .minibox > div:nth-child(2) {
     background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -183,6 +196,13 @@ body {
 /* FOOTER */
 
 .footer {
-    flex: 1;
+    display: flex;
+    flex: 0.3;
     color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div {
+    flex: 1;
 }
