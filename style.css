@@ -16,6 +16,13 @@ body {
     flex: 1;
 }
 
+.hlist {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
 
 
 /* MINIBOX */
@@ -40,12 +47,6 @@ body {
 }
 
 
-.hlist {
-    display: flex;
-    gap: 50px;
-    justify-content: flex-end;
-    list-style: none;
-}
 
 /* MAINBOX */
 
@@ -60,6 +61,8 @@ body {
 .mainbox > div {
     flex: 1;
 }
+
+
 
 /* MAINBOX - TOP REGION */
 
@@ -99,6 +102,8 @@ body {
     text-align: center;
 }
 
+
+
 /* MAINBOX -> QUOTE REGION */
 
 .mbmid {
@@ -122,6 +127,8 @@ body {
     font-weight: bolder;
     text-align: end;
 }
+
+
 
 /* MAINBOX -> BOTTOM REGION */
 
@@ -159,6 +166,7 @@ body {
     border-style: solid;
     margin-right: 100px;
 }
+
 
 
 /* FOOTER */
