@@ -33,6 +33,7 @@ body {
 }
 
 .topzone {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -57,7 +58,7 @@ body {
     display: flex;
     color: white;
     flex-direction: row;
-    width: 75%;
+    width: 40%;
     height: 50%;
 }
 
@@ -81,6 +82,7 @@ body {
 .minibox > div:nth-child(1) > div:nth-child(2) {
     font-size: 18px;
     color: #d9dad8;
+    width: 80%;
 }
 
 .minibox > div:nth-child(2) {
@@ -99,6 +101,8 @@ body {
     border-style: solid;
     width: 140px;
     height: 40px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
