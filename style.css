@@ -16,13 +16,29 @@ body {
     flex: 1;
 }
 
+
+
+/* MINIBOX */
+
 .minibox {
+    flex: 1;
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+
+.minibox > div {
     flex: 1;
 }
 
-.footer {
-    flex: 1;
+.minibox > div > button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-style: solid; 
 }
+
 
 .hlist {
     display: flex;
@@ -79,6 +95,9 @@ body {
     border-radius: 16px;
 }
 
+.subtext {
+    text-align: center;
+}
 
 /* MAINBOX -> QUOTE REGION */
 
@@ -101,9 +120,6 @@ body {
 
 .quotebox > div {
     font-weight: bolder;
-}
-
-.quotebox > div {
     text-align: end;
 }
 
@@ -122,4 +138,31 @@ body {
     width: 75%;
     height: 50%;
     border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bluebox > div {
+    color: white;
+    margin-left: 100px;
+}
+
+.bluebox > div > div:nth-child(1) {
+    font-weight: 900;
+}
+
+.bluebox > button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    margin-right: 100px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    flex: 1;
 }
