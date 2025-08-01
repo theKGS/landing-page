@@ -32,11 +32,22 @@ body {
     color:#f9faf8
 }
 
+.topzone {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+    width: 73.3%;
+    background-color: #1f2937;
+}
+
+
+
 /* TOPREGION */
 
 .topregion {
     display: flex;
-    flex: 2;
+    flex: 1.5;
     align-items: center;
     justify-content: center;
 }
@@ -223,8 +234,12 @@ body {
     display: flex;
     flex: 0.3;
     color: white;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    width: 1400px;
+    background-color:#1f2937;
 }
 
 .footer > div {
