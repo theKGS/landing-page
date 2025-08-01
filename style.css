@@ -38,12 +38,23 @@ body {
     flex: 1;
 }
 
+.minibox > div:nth-child(1) {
+
+}
+
+.minibox > div:nth-child(2) {
+    background-color: gray;
+}
+
+
 .minibox > div > button {
     color: white;
     background-color: #3882f6;
     border-radius: 8px;
     border-color: #3882f6;
-    border-style: solid; 
+    border-style: solid;
+    width: 80px;
+    height: 24px; 
 }
 
 
@@ -173,4 +184,5 @@ body {
 
 .footer {
     flex: 1;
+    color: white;
 }
