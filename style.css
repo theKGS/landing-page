@@ -21,11 +21,15 @@ body {
     gap: 50px;
     justify-content: flex-end;
     list-style: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hlist > li:nth-child(1) {
-    margin-right: 350px;
+    margin-right: 550px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#f9faf8
 }
 
 /* TOPREGION */
@@ -50,8 +54,22 @@ body {
     flex: 1;
 }
 
-.minibox > div:nth-child(1) > div {
+.minibox > div:nth-child(1) > div:nth-child(1) {
+    font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
+}
+
+.minibox > div:nth-child(1) {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.minibox > div:nth-child(1) > div:nth-child(2) {
+    font-size: 18px;
+    color: #d9dad8;
 }
 
 .minibox > div:nth-child(2) {
@@ -68,8 +86,8 @@ body {
     border-radius: 8px;
     border-color: #3882f6;
     border-style: solid;
-    width: 80px;
-    height: 24px; 
+    width: 140px;
+    height: 40px;
 }
 
 
@@ -181,6 +199,7 @@ body {
 
 .bluebox > div > div:nth-child(1) {
     font-weight: 900;
+    font-size: 26px;
 }
 
 .bluebox > button {
@@ -190,6 +209,10 @@ body {
     border-color: white;
     border-style: solid;
     margin-right: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
 }
 
 
